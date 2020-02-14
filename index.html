@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="flex-style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">LFZ Memory Match</h1>
+    </header>
+    <div class="container">
+        <aside class="stats">
+            <div class="stats-item">
+                <div>Games Played</div>
+                <div id="games-played">
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="stats-item">
+                <p>Attempts</p>
+                <div id="attempts">
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="stats-item">
+                <p>Accuracy</p>
+                <div id="accuracy" class="stats-div">
+                    <p>0%</p>
+                </div>
+            </div>
+        </aside>
+        <main id="card-container" class="game-area">
+
+        </main>
+    </div>
+    <div id="win-modal" class="win-modal hidden">
+        <p>Congratulations You have Won!!!</p>
+        <div id="modal-close" class="modal-close" >
+            <p class="modal-button-text">Would You Like to Play Again?</p>
+        </div>
+    </div>
+</body>
+</html>
